@@ -1,7 +1,7 @@
 export type task = {
     id: number;
     title: string;
-    // description: string;
+    description?: string;
     // status: 'todo' |'in-progress' | 'done';
 }
 

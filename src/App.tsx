@@ -14,10 +14,8 @@ function App() {
 
   return (
     <>
-        <Header
-            setTasksList={setTasksList}
-        />
-        <Main tasksList={tasksList} />
+        <Header setTasksList={setTasksList}/>
+        <Main setTasksList={setTasksList} tasksList={tasksList} />
     </>
   )
 }
