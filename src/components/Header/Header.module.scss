@@ -1,0 +1,27 @@
+.header {
+  padding: 2rem;
+  background-color: #10b981;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.input {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  max-width: 250px;
+  margin-right: 1rem;
+}
